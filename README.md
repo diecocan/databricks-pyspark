@@ -11,6 +11,12 @@ PySpark exercises analyzing the NYC Yellow Taxi trip dataset (2015–2016), buil
   4. Spatial join to assign pickup/dropoff districts to each trip
   5. Correlation analysis between tips and trip/district features
   6. Correlation between trip volume and district-level socioeconomic rates
+- [`aux_func.py`](aux_func.py) — Helper functions imported by the notebook, for plotting and visualization:
+  - `visualiza_viajes` — plots trip pickup points on a map
+  - `aniade_capas_distritos` — adds district boundary layers to a map
+  - `visualiza_community_districts` — visualizes community districts
+  - `plot_boxplot_facets` — faceted boxplots by variable
+  - `plot_week_hour_heatmap` — heatmap by day of week and hour of day
 
 ## Requirements
 
